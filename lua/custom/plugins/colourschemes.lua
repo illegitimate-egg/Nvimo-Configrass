@@ -5,9 +5,9 @@ return {
     lazy = false,
     priority = 1000,
     dir = "tjdevries/colorbuddy.nvim",
-    -- config = function()
-    --  vim.cmd.colorscheme "gruvbuddy"
-    -- end,
+    config = function()
+     vim.cmd.colorscheme "badwolf"
+    end,
   },
   "rktjmp/lush.nvim",
   "tckmn/hotdog.vim",
@@ -31,6 +31,7 @@ return {
   "LuRsT/austere.vim",
   "ricardoraposo/gruvbox-minor.nvim",
   "NTBBloodbath/sweetie.nvim",
+  "sjl/badwolf",
   {
     "maxmx03/fluoromachine.nvim",
     -- config = function()
