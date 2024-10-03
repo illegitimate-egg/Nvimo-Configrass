@@ -35,6 +35,15 @@ vim.opt.scrolloff = 10
 
 vim.cmd [[set termguicolors]]
 
-vim.cmd [[ set tabstop=2 ]]
-vim.cmd [[ set shiftwidth=2 ]]
-vim.cmd [[ set expandtab ]]
+vim.cmd [[set tabstop=2]]
+vim.cmd [[set shiftwidth=2]]
+vim.cmd [[set expandtab]]
+
+vim.cmd [[set colorcolumn=80]]
+
+vim.filetype.add({
+  extension = {
+    frag = "glsl",
+    vert = "glsl"
+  }
+})
