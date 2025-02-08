@@ -4,7 +4,7 @@ return {
   {
     lazy = false,
     priority = 1000,
-    dir = "tjdevries/colorbuddy.nvim",
+    "tjdevries/colorbuddy.nvim",
     config = function()
      vim.cmd.colorscheme "badwolf"
     end,
